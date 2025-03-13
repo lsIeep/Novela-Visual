@@ -4,14 +4,14 @@ define config.name = "Cruce de Destinos"
 
 # Definir personajes
 
-define aiko = Character("Aiko", color="#FFC0CB")
+define aiko = Character("Aiko", color="#ff5d5d")
 define hana = Character("Hana", color="#FFD700")
 define saki = Character("Saki", color="#90EE90")
 define rika = Character("Rika", color="#808080")
 
 # Iniciar la historia
 label start:
-    scene bg dorm
+    scene bg apartment_hallway
     show aiko normal
 
     aiko "Aquí estoy... Mi primera vez viviendo sola en una ciudad nueva. Se siente extraño."
